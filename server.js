@@ -19,7 +19,7 @@ app.use(routes)
 
 // Connect to the Mongo DB
 mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/googlebooks", { useNewUrlParser: true });
-//may need to change mongodb://127.0.0.1.27017/googlebooks to mongodb://localhost/googlebooks
+
 app.listen(PORT, () => {
   console.log(`🌎 ==> API server now on port ${PORT}!`);
 });
