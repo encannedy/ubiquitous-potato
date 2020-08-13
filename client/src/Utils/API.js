@@ -1,4 +1,4 @@
-import axios from "./node_modules/axios";
+import axios from "axios";
 
 export default {
   getBook: function (query) {
@@ -10,10 +10,9 @@ export default {
   },
   // Saves a book to the database
   saveBook: function (bookData) {
-    return axios.post("/api/books", bookData).then(result => result.data),
-    res.status(200).json({book:"book add succesful"}).catch(err => {
-   res.status (400).send({book: "book save fail"});
- });
+    return axios.post("/api/books", bookData).then(result => result.data);
+   
+ 
   },
   // Get the saved a books from the database
   savedBooks: function () {
