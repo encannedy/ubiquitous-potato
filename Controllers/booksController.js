@@ -12,6 +12,7 @@ module.exports = {
         res.status(422).json(err)
       });
   },
+  
   findById: function(req, res) {
     db.Book
       .findById(req.params.id)
