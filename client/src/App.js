@@ -4,8 +4,8 @@ import NavBar from "./components/NavBar/index";
 import Header from "./components/Header/index";
 import Wrapper from "./components/Wrapper/index";
 
-import Search from "./pages/search";
-import Saved from "./pages/saved";
+import Search from "./pages/search.js";
+import Saved from "./pages/saved.js";
 
 import "./App.css";
 
