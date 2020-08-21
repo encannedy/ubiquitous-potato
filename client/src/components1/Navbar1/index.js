@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import "./style.css";
 
 
-function NavBar() {
+function Navbar() {
     return (
 
 
@@ -30,4 +30,4 @@ function NavBar() {
     );
 }
 
-export default NavBar;
+export default Navbar;
